@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+    color: var(--color-3);
+    font-size: 6vh;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#web {
+    position: relative;
+    float: left;
+    display: grid;
+    
+}
+#other{
+    position: relative;
+    float: right;
+    display: grid;
+}
+
+@media  screen and (max-width: 1024px) {
+    .box{
+       
+       height: 35vh;
+       width: 70vw;
+       margin: 30px auto;
+    }
+    #other{
+       position: relative;
+       float: none;
+   }
+   #web{
+       position: relative;
+       float: none;
+   }
+      
+   }

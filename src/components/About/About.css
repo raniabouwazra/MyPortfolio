@@ -1,0 +1,62 @@
+.box>h3{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 5vh;
+    margin:7px auto;
+}
+
+.box{
+    justify-content: first baseline;
+    color: var(--color-white);
+    letter-spacing: 2px;
+    height: 60vh;
+    width: 35vw;
+    background: rgb(27, 27, 51);
+    font-weight: lighter;
+    border-radius: 25px;
+    font-size: 3vh;
+    overflow-y: scroll;
+    padding: 20px;
+    margin: 40px 5vw 20px 5vw;
+    box-shadow:  4px 4px 0 0 rgb(27, 27, 51);
+   
+}
+.box:hover{
+    background:var(--color-1);
+    border: 2px solid rgb(27, 27, 51);
+    
+}
+#academic{
+    position: relative;
+    float: right;
+}
+#aboutme{
+    position: relative;
+    float: left;
+}
+span{
+    color: var(--color-3);
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
+@media  screen and (max-width: 1024px) {
+ .box{
+    
+    height: 35vh;
+       width: 70vw;
+    margin: 30px auto;
+ }
+ #academic{
+    position: relative;
+    float: none;
+}
+#aboutme{
+    position: relative;
+    float: none;
+}
+   
+}

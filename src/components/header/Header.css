@@ -1,0 +1,64 @@
+header{
+    overflow: hidden;
+    height: auto;
+}
+.header__container{
+    text-align: center;
+    position: relative;
+}
+.Hbutton{
+    display: flex;
+    margin: 10px ;
+    align-items: center;
+    justify-content: center;
+}
+.headersc{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+
+.Mypic{
+    
+    background-image:linear-gradient(var(--color-3),transparent) ;
+    width: 400px;
+    height: 400px;
+    margin: 10px auto 30px auto;
+    border-radius: 200px 200px 20px 20px;
+   
+}
+.ScrollDown{
+  position: absolute;
+ right: -2.5rem; 
+ bottom: 140px; 
+ transform: rotate(90deg);
+ display: inline-block
+}
+@media  screen and (max-width: 1024px) {
+    header{
+       height: 100vh;
+
+    }
+}
+@media  screen and (max-width: 600px) {
+    h1{
+        font-size: 3vh;
+    }
+    .header{
+      height: 50vh;
+    }
+    .Mypic{
+        width: 240px;
+        height: 240px;
+        margin-top: 30px;
+        }
+
+    .headersc, .ScrollDown{
+        display: none;
+    }
+
+}
