@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/raniabouwazra.pdf'
 import Me from '../../assets/mypic.png'
 import HeaderSocials from './HeaderSocials'
 import './Header.css'
