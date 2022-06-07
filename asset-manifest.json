@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.f22730c8.css",
+    "main.css": "/MyPortfolio/static/css/main.9845359e.css",
     "main.js": "/MyPortfolio/static/js/main.ef21c12c.js",
     "static/media/raniabouwazra.pdf": "/MyPortfolio/static/media/raniabouwazra.666b824a483529b30b02.pdf",
     "index.html": "/MyPortfolio/index.html",
-    "main.f22730c8.css.map": "/MyPortfolio/static/css/main.f22730c8.css.map",
+    "main.9845359e.css.map": "/MyPortfolio/static/css/main.9845359e.css.map",
     "main.ef21c12c.js.map": "/MyPortfolio/static/js/main.ef21c12c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f22730c8.css",
+    "static/css/main.9845359e.css",
     "static/js/main.ef21c12c.js"
   ]
 }
